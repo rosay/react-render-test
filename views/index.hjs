@@ -5,10 +5,11 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1>Rendered server side</h1>
+    <h1>{{title}}</h1>
+    <h2>Rendered server side</h2>
     <div id="ServerContent">{{{markup}}}</div>
 
-    <h1>Rendered client side</h1>
+    <h2>Rendered client side</h2>
     <div id="ClientContent"></div>
 
     <script src="bundle.js"></script>

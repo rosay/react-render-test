@@ -14,7 +14,7 @@ router.get('/', function(req, res) {
   var markup = React.renderToString(App());
 
   res.render('index', {
-    title: 'Open Source Library',
+    title: "The Programmer's Book Store",
     markup: markup
   });
 });
