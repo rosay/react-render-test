@@ -6,10 +6,10 @@
   </head>
   <body>
     <h1>{{title}}</h1>
-    <h2>Rendered server side</h2>
+    <h2>Rendered server side</h2>&nbsp;<span class="load-text">(Perceived load time: <em id="server-load-time">--</em>)</span>
     <div id="ServerContent">{{{markup}}}</div>
 
-    <h2>Rendered client side</h2>
+    <h2>Rendered client side</h2>&nbsp;<span class="load-text">(Perceived load time: <em id="client-load-time">--</em>)</span>
     <div id="ClientContent"></div>
 
     <script src="bundle.js"></script>

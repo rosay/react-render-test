@@ -27,3 +27,11 @@ table td {
     background: #fafafa;
     text-align: left;
 }
+
+h2 {
+    display:inline-block;
+}
+
+.load-text {
+    color: lightslategray;
+}
