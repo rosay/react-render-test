@@ -11,6 +11,7 @@ var React = require("react"),
 
 /* GET home page. */
 router.get('/', function(req, res) {
+    // Render server side content
   var markup = React.renderToString(App());
 
   res.render('index', {
