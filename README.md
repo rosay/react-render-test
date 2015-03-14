@@ -1,5 +1,5 @@
 # Render speed test: client vs server.
-This is an example app that uses Reactjs to highlight the benefits of server side rendering. The same block of HTML (a table of books) is rendered on the server and on the client. It gets interesting when you slow your connection speed down using BrowserSync or Chrome DevTools.
+This is an example app that uses React to highlight the benefits of server side rendering. The same block of HTML (a table of books) is rendered on the server and on the client. It gets interesting when you slow your connection speed down using BrowserSync or Chrome DevTools.
 
 ### Installation
 ```bash
